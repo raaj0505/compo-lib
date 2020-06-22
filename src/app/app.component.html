@@ -1,0 +1,29 @@
+<hello name="{{ name }}"></hello>
+<p>
+	Start editing to see some magic happen :)
+</p>
+<div>
+	<h4>Rating component demo</h4>
+	<rating [totalStars]="5" [rating]="0" (onRating)="onRating($event)"></rating>
+</div>
+
+<div>
+	<h4> Uppercase pipe demo</h4>
+	<div>
+		<span>{{pipeDemoWord | uppercase }}</span>
+	</div>
+</div>
+
+<div>
+	<h4> Capitalize directive demo</h4>
+	<div>
+		<span appCapitalize>i will be capitalize by directive</span>
+	</div>
+</div>
+
+<div>
+	<h4> Highlight directive demo susing host listener</h4>
+	<div>
+		<span appHighlightOnHover>i will be highlighted on hover</span>
+	</div>
+</div>

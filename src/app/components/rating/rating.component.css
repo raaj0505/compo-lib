@@ -1,0 +1,8 @@
+.rating{
+    display:inline-block;
+    margin-right:3px;
+    cursor:pointer;
+    color:rgb(7, 2, 2);
+}
+.rating >  span:hover{color:#006dcc;}
+.filled {color:#006dcc;}
